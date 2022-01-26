@@ -1,6 +1,4 @@
 # ICSE2022 Artifact Evaluation #20
-TODO: using a virtual machine is the best way. Colab cannot save files for Python; R is too slow to install on Colab and docker. 
-Will prepare the program in RStudio first, then present them in VM.
 
 # Section 3
 The empirical study results is presented in the google document below:
@@ -11,20 +9,20 @@ We call this document as "Empirical Table" in the rest of the document.
 ## Section 3.1
 ### The large dataset
 Original web page content:
-`/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/large-dataset/raw-data.json`
+`icse2022-ae20/large-dataset/raw-data.json`
 
 After removing HTML tags:
-`/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/large-dataset/raw-data-html-tag-removed.json`
+`icse2022-ae20/large-dataset/raw-data-html-tag-removed.json`
 #### The sample 100 questions and results from the large dataset
 See sheet "Section 3.1.1 sampled 100 questions" in the empirical table.
 
 ### The small dataset
 Copy of the original web pages:
-`/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/small-dataset/question-web-pages`
+`icse2022-ae20/small-dataset/question-web-pages`
 
 Reproduced Rust code snippets:
 
-TODO: copy the private repo to this repo
+`icse2022-ae20/small-dataset/reproduced-code-snippets`
 
 
 
@@ -63,30 +61,28 @@ function or a closure."
 See the cells marked in green. The 415 questions of lifetime annotations
 are summarized by using topic number = 8.
 
-The scripts to run the LDA model is available from XXX.
 
 ### Section 3.3.2
 Results: sheet "Section 3.3.2".
 
-Scripts: TODO
 
 ## Section 3.4
 ### Cognitive Task Analysis
-Interview Protocol: `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/cognitive-task-analysis/interview.docx`
+Interview Protocol: `icse2022-ae20/cognitive-task-analysis/interview.docx`
 
-Outcome: `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/cognitive-task-analysis/outcome.xlsx`
+Outcome: `icse2022-ae20/cognitive-task-analysis/outcome.xlsx`
 
 ### Results
 See column AN:AO in sheet "Section 3.2" and sheet "Section 3.4".
 
 # Section 4
 ## The Survey
-Qualtrics Project file: `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-project/Qualtrics_project.qsf` (This file can be imported to Qualtrics)
+Qualtrics Project file: `icse2022-ae20/survey-project/Qualtrics_project.qsf` (This file can be imported to Qualtrics)
 
-Survey Description: `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-project/survey-description.pdf`
+Survey Description: `icse2022-ae20/survey-project/survey-description.pdf`
 
 PC, PD and their variants, with rubrics for Q6:
-`/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-project/pc-pd-rubric.docx`
+`icse2022-ae20/survey-project/pc-pd-rubric.docx`
 
 ## Participants' Responses
 
@@ -96,16 +92,21 @@ https://docs.google.com/spreadsheets/d/1QUN3NEk5zPHWS96cV--AM113ZHP18-9Z1_z5cV6B
 
 ### Demographic Information
 To protect participants' privacy, we only present the statistical results.
-`/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-results/phase1.pdf`
+`icse2022-ae20/survey-results/phase1.pdf`
 
 ### Section 4.2.1
 https://colab.research.google.com/drive/1dEUSHeLGEV3b6oFAkjnb3wPcautIb44I?usp=sharing#scrollTo=TBxxu1U5WPxs
 
 ### Section 4.2.2 
+The Rmd (R Markdown) files are available both in the virtual machine and the RStudio Cloud project here:
+https://rstudio.cloud/project/3466569
+To execute and view the files, click the "Knit" button from RStudio after opening the Rmd file.
+You may also install package "ez" and execute them from a local machine, but the reproduction of the results are not
+guaranteed.
 #### Statistical tests
-`/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-results/phase2.Rmd` and `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-results/phase2-err-msg.Rmd`.
+`icse2022-ae20/survey-results/phase2.Rmd` and `icse2022-ae20/survey-results/phase2-err-msg.Rmd`.
 #### Table 3
-`/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-results/table3.Rmd`.
+`icse2022-ae20/survey-results/table3.Rmd`.
 #### Q1 selecting tuples in PC
 See sheet "phase 2 PC - Q1 selected tuple". 
 Corresponding answers are highlighted.
@@ -117,5 +118,5 @@ See sheet "phase 2 PD1 - Q6 wrong understanding".
 Corresponding answers are highlighted.
 ### Section 4.2.3 
 To protect participants' privacy, we only present the statistical results.
-`/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-results/phase3.pdf`
+`icse2022-ae20/survey-results/phase3.pdf`
 
