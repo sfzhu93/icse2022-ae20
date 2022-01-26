@@ -3,6 +3,11 @@ TODO: using a virtual machine is the best way. Colab cannot save files for Pytho
 Will prepare the program in RStudio first, then present them in VM.
 
 # Section 3
+The empirical study results is presented in the google document below:
+https://docs.google.com/spreadsheets/d/1_uipSVvq0l8MLYN4XXqHP1hgcPp1wvNDnqJ4eu0GpZE/edit#gid=534399057
+
+We call this document as "Empirical Table" in the rest of the document.
+
 ## Section 3.1
 ### The large dataset
 Original web page content:
@@ -11,7 +16,7 @@ Original web page content:
 After removing HTML tags:
 `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/large-dataset/raw-data-html-tag-removed.json`
 #### The sample 100 questions and results from the large dataset
-TODO
+See sheet "Section 3.1.1 sampled 100 questions" in the empirical table.
 
 ### The small dataset
 Copy of the original web pages:
@@ -21,10 +26,7 @@ Reproduced Rust code snippets:
 
 TODO: copy the private repo to this repo
 
-The empirical study results is presented in the google document below:
-https://docs.google.com/spreadsheets/d/1_uipSVvq0l8MLYN4XXqHP1hgcPp1wvNDnqJ4eu0GpZE/edit#gid=534399057
 
-We call this document as "Empirical Table" in the rest of the document.
 
 Violation count in Section 3.1.2:
 
