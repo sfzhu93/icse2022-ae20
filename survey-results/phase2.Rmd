@@ -94,7 +94,7 @@ nrow(dat[dat$PB.Answer=='Yes'&dat$PA.Answer=='No', ])
 # PC and PD
 
 ```{r echo=FALSE}
-#erase C1_e to D1
+#erase C1_e to C1
 dat[dat$Which.PC.=='C1_e',]$Which.PC. = 'C1'
 dat$Which.PC. = factor(dat$Which.PC.)
 
