@@ -101,6 +101,9 @@ https://colab.research.google.com/drive/1dEUSHeLGEV3b6oFAkjnb3wPcautIb44I?usp=sh
 ### Section 4.2.2 
 TODO: colab is too slow.
 
+#### Q1 selecting tuples in PC
+see sheet "phase 2 PC - Q1 selected tuple".
+
 ### Section 4.2.3 
 To protect participants' privacy, we only present the statistical results.
 `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-results/phase3.pdf`
