@@ -1,4 +1,4 @@
-# icse2022 Artifact Evaluation #20
+# ICSE2022 Artifact Evaluation #20
 TODO: using a virtual machine is the best way. Colab cannot save files for Python; R is too slow to install on Colab and docker. 
 Will prepare the program in RStudio first, then present them in VM.
 
@@ -99,11 +99,19 @@ To protect participants' privacy, we only present the statistical results.
 https://colab.research.google.com/drive/1dEUSHeLGEV3b6oFAkjnb3wPcautIb44I?usp=sharing#scrollTo=TBxxu1U5WPxs
 
 ### Section 4.2.2 
-TODO: colab is too slow.
-
+#### Statistical tests
+`/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-results/phase2.Rmd` and `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-results/phase2-err-msg.Rmd`.
+#### Table 3
+`/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-results/table3.Rmd`.
 #### Q1 selecting tuples in PC
-see sheet "phase 2 PC - Q1 selected tuple".
-
+See sheet "phase 2 PC - Q1 selected tuple". 
+Corresponding answers are highlighted.
+#### Q3 wrong choices
+See sheet "phase 2 PC - Q3 wrong choices" and "phase 2 PD - Q3 wrong choices".
+Corresponding answers are highlighted.
+#### Q6 wrong understanding
+See sheet "phase 2 PD1 - Q6 wrong understanding".
+Corresponding answers are highlighted.
 ### Section 4.2.3 
 To protect participants' privacy, we only present the statistical results.
 `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/survey-results/phase3.pdf`
