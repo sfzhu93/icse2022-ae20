@@ -7,6 +7,7 @@ Will prepare the program in RStudio first, then present them in VM.
 ### The large dataset
 Original web page content:
 `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/large-dataset/raw-data.json`
+
 After removing HTML tags:
 `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/large-dataset/raw-data-html-tag-removed.json`
 #### The sample 100 questions and results from the large dataset
@@ -45,7 +46,7 @@ In "Empirical Table", see N:Q in sheet "Section 3.2", and sheet "Section 3.2.2 -
 ### Section 3.3.1
 "We find 790, 907, and 28 questions respectively for these rule
 groups in the large dataset":
-TODO: https://docs.google.com/spreadsheets/d/1X0z61IHfi2XKwMlyNE8aVP5PE389lS3tkEuNYuZK7pA/edit#gid=0
+https://docs.google.com/spreadsheets/d/1u0hVmvPmwQ6ExT1kshX_m_xuePRKZfovZFwmd7S_vKw/edit#gid=0
 
 The LDA results are presented in sheet 'Section 3.3.1 LDA-"lifetime"',
 'Section 3.3.1 LDA-"borrow"', and 'Section 3.3.1 LDA-"move"'.
@@ -70,11 +71,11 @@ Scripts: TODO
 ## Section 3.4
 ### Cognitive Task Analysis
 Interview Protocol: `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/cognitive-task-analysis/interview.docx`
+
 Outcome: `/home/jdoe/vrlifetime-survey/icse/icse2022-ae20/cognitive-task-analysis/outcome.xlsx`
 
 ### Results
-See column AN:AO in sheet "Section 3.2".
-TODO: missing some numbers
+See column AN:AO in sheet "Section 3.2" and sheet "Section 3.4".
 
 # Section 4
 ## The Survey
